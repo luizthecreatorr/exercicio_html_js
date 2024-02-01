@@ -1,0 +1,36 @@
+body{
+    font-family: arial,sans-serif;
+    height: 100%;
+}
+
+#form{
+    max-width: 400px;
+    margin: 20px auto;
+}
+h1{
+    margin-left: 35%;
+    margin-bottom: 35px;
+    color:#F27405;
+    justify-items: center;
+}
+
+.campo-a, .campo-b{
+    padding: 18px;
+    color: #F25C05;
+
+}
+
+input{
+    margin-bottom: 15px;
+}
+
+button{
+    margin-left: 35%;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
