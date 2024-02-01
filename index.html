@@ -5,19 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de Validação</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="fav-icon/icon.png"type="image/x-icon">
 </head>
 <body>
     <h1>Formulário de Validação</h1>
     <form id="form">
-        <label class="campo-a" for="campo A"><b>Campo A:</b></label>
+        <label class="campoA" for="campo A"><b>Campo A:</b></label>
         <input class="input-1" type="number" required>
         <br>
-        <label class="campo-b" for="Campo B"><b>Campo B:</b></label>
+        <label class="campoB" for="Campo B"><b>Campo B:</b></label>
         <input class="input-2" type="number" required>
         <br>
-        <div class="button-container">
-            <button type="button">Enviar</button>
-        </div>
+            <button type="button" onclick="validarFormulario()">Enviar</button>
+            <p id="btn-submit"></p>
     </form>
+    <script src="index.js"></script>
 </body>
 </html>
